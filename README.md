@@ -1,5 +1,6 @@
-# Проект: Takeoff Staff Contacts List
+# Проект: (Takeoff Staff) Contacts List
 
+<img width="1440" alt="Снимок экрана 2022-10-10 в 15 25 40" src="https://user-images.githubusercontent.com/34587236/194812252-cefd9813-0a99-40c0-8825-d173b290a730.png">
 
 ## Данное веб приложение позволяет:
 * Производить авторизацию по логину и паролю.
