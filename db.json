@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$3UV3pU9zPwQfmcCLU0/GPOv3dtSgf6OrsheptjwAobSW8XXqH5tMi",
+      "id": 1
+    },
+    {
+      "email": "test@mail.com",
+      "password": "$2a$10$qN3OO5vmryrptpEnxPy/euZXTCPeqg.RUPXvz9yGfZUpVrfXxHgfm",
+      "id": 3
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Test",
+      "number": "13123123",
+      "id": 4
+    },
+    {
+      "name": "Andrew",
+      "number": "83424234",
+      "id": 5
+    }
+  ]
+}
