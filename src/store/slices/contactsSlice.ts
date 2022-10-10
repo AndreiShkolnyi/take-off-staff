@@ -103,7 +103,7 @@ export const removeContact =
   (contactId: number) => async (dispatch: AppDispatch) => {
     try {
       dispatch(removeContactRequested());
-      const { content } = await contactService.removeContact(contactId);
+      await contactService.removeContact(contactId);
       dispatch(contactRemoved(contactId));
     } catch (error) {
       if (error instanceof Error) {

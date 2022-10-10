@@ -1,4 +1,4 @@
-export const MainPage = () => {
+export const MainPage: React.FC = () => {
   return (
     <div className="container mx-auto p-4 flex justify-center relative">
       <div className="min-w-[760px] justify-center flex-col text-center">

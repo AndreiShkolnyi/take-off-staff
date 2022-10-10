@@ -11,7 +11,7 @@ import {
   removeContact,
 } from "../store/slices/contactsSlice";
 import { AppDispatch } from "../store/store";
-export const ContactsList = () => {
+export const ContactsList: React.FC = () => {
   const [isModal, setModal] = useState(false);
   const [updateModal, setUpdateModal] = useState(false);
   const [selectedId, setSelectedId] = useState<number>();

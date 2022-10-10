@@ -1,8 +1,11 @@
+import React from "react";
+import { ITarget } from "../models/models";
+
 interface ContactInputFieldProps {
   label: string;
   name: string;
   value?: string;
-  onChange: any;
+  onChange: (target: ITarget) => void;
   userData: string;
 }
 
@@ -13,8 +16,8 @@ const ContactInputField = ({
   onChange,
   userData,
 }: ContactInputFieldProps) => {
-  const handleChange = ({ target }: any): void => {
-    onChange({ name: target.name, value: target.value });
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>): void => {
+    onChange({ name: event.target.name, value: event.target.value });
   };
   return (
     <>
